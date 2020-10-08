@@ -1,0 +1,18 @@
+main{
+  background-color: $mainColor;
+  height: 100vh;
+}
+
+ul{
+  @include flexProperty;
+  height: 100%;
+  width: 100%;
+}
+
+ul li{
+  width: calc((100%/3) - 8px);
+  margin-left: 4px;
+  margin-right: 4px;
+
+  list-style: none;
+}

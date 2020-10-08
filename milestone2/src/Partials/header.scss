@@ -1,0 +1,16 @@
+header{
+  height: 80px;
+  background-color: $headerColor;
+}
+
+.container{
+  width: 1000px;
+  height: 100%;
+  margin: auto;
+  @include flexProperty;
+  align-items: center;
+}
+
+.container img{
+  height: 50px;
+}
